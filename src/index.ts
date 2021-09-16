@@ -49,3 +49,5 @@ export { SlAvatar } from './sl-avatar';
 export { SlButton } from './sl-button';
 export { SlInput } from './sl-input';
 export { SlColorPicker } from './sl-color-picker';
+
+export * from './themes';

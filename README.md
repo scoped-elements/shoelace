@@ -13,7 +13,7 @@ npm i @scoped-elements/shoelace
 ### As an sub element in your own custom element
 
 ```js
-import { SlButton } from '@scoped-elements/shoelace';
+import { SlButton, lightTheme } from '@scoped-elements/shoelace';
 import { ScopedElementsMixin } from '@open-wc/scoped-elements';
 
 export class CustomElement extends ScopedElementsMixin(LitElement) {
@@ -26,6 +26,8 @@ export class CustomElement extends ScopedElementsMixin(LitElement) {
   render() {
     return html` <sl-button></sl-button> `;
   }
+
+  static styles = [lightTheme]
 }
 ```
 
@@ -38,6 +40,8 @@ customElements.define('sl-button', SlButton);
 
 // Use in the same way as the shoelace library in the html
 ```
+
+This requires you to include the shoelace theming separately. See [theming](https://shoelace.style/getting-started/themes?id=activating-themes).
 
 ## Documentation for the elements
 
