@@ -1,9 +1,9 @@
 {
   "name": "@scoped-elements/shoelace",
-  "description": "@shoelace design system exported using the scoped elements mixin",
+  "description": "Shoelace design system exported using the scoped elements mixin",
   "license": "MIT",
   "author": "guillem.cordoba@gmail.com",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@open-wc/scoped-elements": "^2.0.0-next.5",
-    "@shoelace-style/shoelace": "^2.0.0-beta.51"
+    "@shoelace-style/shoelace": "^2.0.0-beta.53"
   },
   "devDependencies": {
     "@open-wc/eslint-config": "^4.3.0",
