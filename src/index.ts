@@ -13,7 +13,6 @@ export {
   SlIcon,
   SlInclude,
   SlMenu,
-  SlMenuDivider,
   SlMenuLabel,
   SlProgressBar,
   SlProgressRing,
