@@ -13,16 +13,21 @@
 
     <script type="module">
       import { html, render } from 'lit';
-      import { SlBreadcrumb, SlBreadcrumbItem } from '../dist';
+      import { SlBreadcrumb, SlBreadcrumbItem, SlCard } from '../dist';
 
       customElements.define('sl-breadcrumb', SlBreadcrumb);
       customElements.define('sl-breadcrumb-item', SlBreadcrumbItem);
+      customElements.define('sl-card', SlCard);
 
       render(
-        html` <sl-breadcrumb>
-          <sl-breadcrumb-item>Hi</sl-breadcrumb-item>
-          <sl-breadcrumb-item>Hi2</sl-breadcrumb-item>
-          </sl-breadcrumb> `,
+        html`
+          <sl-card>
+            <sl-breadcrumb>
+              <sl-breadcrumb-item>Hi</sl-breadcrumb-item>
+              <sl-breadcrumb-item>Hi2</sl-breadcrumb-item>
+            </sl-breadcrumb>
+          </sl-card>
+        `,
         document.querySelector('#demo')
       );
     </script>

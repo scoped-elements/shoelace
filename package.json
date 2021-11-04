@@ -26,8 +26,10 @@
     "publish:branch": "npm run build && gh-pages -d ./ -b build"
   },
   "dependencies": {
-    "@open-wc/scoped-elements": "^2.0.0-next.5",
-    "@shoelace-style/shoelace": "^2.0.0-beta.53"
+    "@open-wc/dedupe-mixin": "^1.3.0",
+    "@open-wc/scoped-elements": "^2.0.1",
+    "@shoelace-style/shoelace": "^2.0.0-beta.53",
+    "lit": "^2.0.2"
   },
   "devDependencies": {
     "@open-wc/eslint-config": "^4.3.0",
@@ -43,7 +45,6 @@
     "gh-pages": "^3.2.3",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "lit": "^2.0.0-rc.4",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.56.3",
