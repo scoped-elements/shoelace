@@ -50,51 +50,50 @@ import { SlButton as BaseSlButton } from './sl-button';
 import { SlInput as BaseSlInput } from './sl-input';
 import { SlColorPicker as BaseSlColorPicker } from './sl-color-picker';
 
-export const SlAnimation = ThemeMixin(BaseSlAnimation);
-export const SlBadge = ThemeMixin(BaseSlBadge);
-export const SlBreadcrumbItem = ThemeMixin(BaseSlBreadcrumbItem);
-export const SlButtonGroup = ThemeMixin(BaseSlButtonGroup);
-export const SlCard = ThemeMixin(BaseSlCard);
-export const SlCheckbox = ThemeMixin(BaseSlCheckbox);
-export const SlDropdown = ThemeMixin(BaseSlDropdown);
-export const SlForm = ThemeMixin(BaseSlForm);
-export const SlFormatBytes = ThemeMixin(BaseSlFormatBytes);
-export const SlFormatDate = ThemeMixin(BaseSlFormatDate);
-export const SlFormatNumber = ThemeMixin(BaseSlFormatNumber);
-export const SlIcon = ThemeMixin(BaseSlIcon);
-export const SlInclude = ThemeMixin(BaseSlInclude);
-export const SlMenu = ThemeMixin(BaseSlMenu);
-export const SlMenuLabel = ThemeMixin(BaseSlMenuLabel);
-export const SlProgressBar = ThemeMixin(BaseSlProgressBar);
-export const SlProgressRing = ThemeMixin(BaseSlProgressRing);
-export const SlQrCode = ThemeMixin(BaseSlQrCode);
-export const SlRadio = ThemeMixin(BaseSlRadio);
-export const SlRadioGroup = ThemeMixin(BaseSlRadioGroup);
-export const SlRange = ThemeMixin(BaseSlRange);
-export const SlRelativeTime = ThemeMixin(BaseSlRelativeTime);
-export const SlResizeObserver = ThemeMixin(BaseSlResizeObserver);
-export const SlResponsiveMedia = ThemeMixin(BaseSlResponsiveMedia);
-export const SlSkeleton = ThemeMixin(BaseSlSkeleton);
-export const SlSpinner = ThemeMixin(BaseSlSpinner);
-export const SlSwitch = ThemeMixin(BaseSlSwitch);
-export const SlTabPanel = ThemeMixin(BaseSlTabPanel);
-export const SlTextarea = ThemeMixin(BaseSlTextarea);
-export const SlTooltip = ThemeMixin(BaseSlTooltip);
-
-export const SlTab = ThemeMixin(BaseSlTab);
-export const SlTabGroup = ThemeMixin(BaseSlTabGroup);
-export const SlSelect = ThemeMixin(BaseSlSelect);
-export const SlTag = ThemeMixin(BaseSlTag);
-export const SlRating = ThemeMixin(BaseSlRating);
-export const SlMenuItem = ThemeMixin(BaseSlMenuItem);
-export const SlImageComparer = ThemeMixin(BaseSlImageComparer);
-export const SlDrawer = ThemeMixin(BaseSlDrawer);
-export const SlDialog = ThemeMixin(BaseSlDialog);
-export const SlBreadcrumb = ThemeMixin(BaseSlBreadcrumb);
-export const SlDetails = ThemeMixin(BaseSlDetails);
-export const SlIconButton = ThemeMixin(BaseSlIconButton);
-export const SlAlert = ThemeMixin(BaseSlAlert);
-export const SlAvatar = ThemeMixin(BaseSlAvatar);
-export const SlButton = ThemeMixin(BaseSlButton);
-export const SlInput = ThemeMixin(BaseSlInput);
-export const SlColorPicker = ThemeMixin(BaseSlColorPicker);
+export class SlAnimation extends ThemeMixin(BaseSlAnimation) {}
+export class SlBadge extends ThemeMixin(BaseSlBadge) {}
+export class SlBreadcrumbItem extends ThemeMixin(BaseSlBreadcrumbItem) {}
+export class SlButtonGroup extends ThemeMixin(BaseSlButtonGroup) {}
+export class SlCard extends ThemeMixin(BaseSlCard) {}
+export class SlCheckbox extends ThemeMixin(BaseSlCheckbox) {}
+export class SlDropdown extends ThemeMixin(BaseSlDropdown) {}
+export class SlForm extends ThemeMixin(BaseSlForm) {}
+export class SlFormatBytes extends ThemeMixin(BaseSlFormatBytes) {}
+export class SlFormatDate extends ThemeMixin(BaseSlFormatDate) {}
+export class SlFormatNumber extends ThemeMixin(BaseSlFormatNumber) {}
+export class SlIcon extends ThemeMixin(BaseSlIcon) {}
+export class SlInclude extends ThemeMixin(BaseSlInclude) {}
+export class SlMenu extends ThemeMixin(BaseSlMenu) {}
+export class SlMenuLabel extends ThemeMixin(BaseSlMenuLabel) {}
+export class SlProgressBar extends ThemeMixin(BaseSlProgressBar) {}
+export class SlProgressRing extends ThemeMixin(BaseSlProgressRing) {}
+export class SlQrCode extends ThemeMixin(BaseSlQrCode) {}
+export class SlRadio extends ThemeMixin(BaseSlRadio) {}
+export class SlRadioGroup extends ThemeMixin(BaseSlRadioGroup) {}
+export class SlRange extends ThemeMixin(BaseSlRange) {}
+export class SlRelativeTime extends ThemeMixin(BaseSlRelativeTime) {}
+export class SlResizeObserver extends ThemeMixin(BaseSlResizeObserver) {}
+export class SlResponsiveMedia extends ThemeMixin(BaseSlResponsiveMedia) {}
+export class SlSkeleton extends ThemeMixin(BaseSlSkeleton) {}
+export class SlSpinner extends ThemeMixin(BaseSlSpinner) {}
+export class SlSwitch extends ThemeMixin(BaseSlSwitch) {}
+export class SlTabPanel extends ThemeMixin(BaseSlTabPanel) {}
+export class SlTextarea extends ThemeMixin(BaseSlTextarea) {}
+export class SlTooltip extends ThemeMixin(BaseSlTooltip) {}
+export class SlTab extends ThemeMixin(BaseSlTab) {}
+export class SlTabGroup extends ThemeMixin(BaseSlTabGroup) {}
+export class SlSelect extends ThemeMixin(BaseSlSelect) {}
+export class SlTag extends ThemeMixin(BaseSlTag) {}
+export class SlRating extends ThemeMixin(BaseSlRating) {}
+export class SlMenuItem extends ThemeMixin(BaseSlMenuItem) {}
+export class SlImageComparer extends ThemeMixin(BaseSlImageComparer) {}
+export class SlDrawer extends ThemeMixin(BaseSlDrawer) {}
+export class SlDialog extends ThemeMixin(BaseSlDialog) {}
+export class SlBreadcrumb extends ThemeMixin(BaseSlBreadcrumb) {}
+export class SlDetails extends ThemeMixin(BaseSlDetails) {}
+export class SlIconButton extends ThemeMixin(BaseSlIconButton) {}
+export class SlAlert extends ThemeMixin(BaseSlAlert) {}
+export class SlAvatar extends ThemeMixin(BaseSlAvatar) {}
+export class SlButton extends ThemeMixin(BaseSlButton) {}
+export class SlInput extends ThemeMixin(BaseSlInput) {}
+export class SlColorPicker extends ThemeMixin(BaseSlColorPicker) {}
