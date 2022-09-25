@@ -3,10 +3,11 @@
   "description": "Shoelace design system exported using the scoped elements mixin",
   "license": "MIT",
   "author": "guillem.cordoba@gmail.com",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
