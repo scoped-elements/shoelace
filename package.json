@@ -3,14 +3,12 @@
   "description": "Shoelace design system exported using the scoped elements mixin",
   "license": "MIT",
   "author": "guillem.cordoba@gmail.com",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "exports": {
     ".": "./dist/index.js"
   },
@@ -54,19 +52,12 @@
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
-    "extends": [
-      "@open-wc",
-      "prettier"
-    ],
-    "plugins": [
-      "@typescript-eslint"
-    ],
+    "extends": ["@open-wc", "prettier"],
+    "plugins": ["@typescript-eslint"],
     "rules": {
       "max-classes-per-file": "off",
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error"
-      ],
+      "@typescript-eslint/no-unused-vars": ["error"],
       "import/no-unresolved": "off",
       "import/extensions": "off"
     }
@@ -81,9 +72,6 @@
     }
   },
   "lint-staged": {
-    "*.ts": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "*.ts": ["eslint --fix", "prettier --write"]
   }
 }
